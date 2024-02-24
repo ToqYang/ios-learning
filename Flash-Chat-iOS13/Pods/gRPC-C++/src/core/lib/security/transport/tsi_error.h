@@ -1,30 +1,3 @@
-/*
- *
- * Copyright 2015 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#ifndef GRPC_CORE_LIB_SECURITY_TRANSPORT_TSI_ERROR_H
-#define GRPC_CORE_LIB_SECURITY_TRANSPORT_TSI_ERROR_H
-
-#include <grpc/support/port_platform.h>
-
-#include "src/core/lib/iomgr/error.h"
-#include "src/core/tsi/transport_security_interface.h"
-
-grpc_error_handle grpc_set_tsi_error_result(grpc_error_handle error,
-                                            tsi_result result);
-
-#endif /* GRPC_CORE_LIB_SECURITY_TRANSPORT_TSI_ERROR_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa63a243cf4f8664cc7ddc1d81c9a1e2e9d7790b1be5cabdf03ec5abfe603a6d
+size 1038

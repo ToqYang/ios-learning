@@ -1,15 +1,3 @@
-//
-//  UIButton+Chameleon.h
-//  Chameleon
-//
-//  Created by Vicc Alexander on 9/20/15.
-//  Copyright © 2015 Vicc Alexander. All rights reserved.
-//
-
-#import <UIKit/UIKit.h>
-
-@interface UIButton (Chameleon)
-
-- (void)setSubstituteFontName:(NSString *)name UI_APPEARANCE_SELECTOR;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8a98a31ed31dfd0ead99c955397baf5c63df29105305033294fa6c772b51ac2
+size 285

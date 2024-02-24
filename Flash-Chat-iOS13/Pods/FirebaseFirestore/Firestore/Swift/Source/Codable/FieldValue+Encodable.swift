@@ -1,32 +1,3 @@
-/*
- * Copyright 2019 Google
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-#if SWIFT_PACKAGE
-  @_exported import FirebaseFirestoreInternalWrapper
-#else
-  @_exported import FirebaseFirestoreInternal
-#endif // SWIFT_PACKAGE
-
-/** Extends FieldValue to conform to Encodable. */
-extension FieldValue: Encodable {
-  /// Encoding a FieldValue will throw by default unless the encoder implementation
-  /// explicitly handles it, which is what Firestore.Encoder does.
-  public func encode(to encoder: Encoder) throws {
-    throw FirestoreEncodingError.encodingIsNotSupported(
-      "FieldValue values can only be encoded with Firestore.Encoder"
-    )
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3635e89383492fd4e947646a4cc8f5cd0c7a9b06ff2db47ab9218a4e5ad3d38
+size 1165

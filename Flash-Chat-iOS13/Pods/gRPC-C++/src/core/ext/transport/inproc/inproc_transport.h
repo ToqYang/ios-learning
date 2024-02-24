@@ -1,34 +1,3 @@
-/*
- *
- * Copyright 2017 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#ifndef GRPC_CORE_EXT_TRANSPORT_INPROC_INPROC_TRANSPORT_H
-#define GRPC_CORE_EXT_TRANSPORT_INPROC_INPROC_TRANSPORT_H
-
-#include <grpc/support/port_platform.h>
-
-#include <grpc/impl/codegen/grpc_types.h>
-
-#include "src/core/lib/debug/trace.h"
-
-grpc_channel* grpc_inproc_channel_create(grpc_server* server,
-                                         const grpc_channel_args* args,
-                                         void* reserved);
-
-extern grpc_core::TraceFlag grpc_inproc_trace;
-
-#endif /* GRPC_CORE_EXT_TRANSPORT_INPROC_INPROC_TRANSPORT_H */
+version https://git-lfs.github.com/spec/v1
+oid sha256:55948adb28aa4bdbc2ae927fc9564c067045f43dcb840131b7668d1471e8055f
+size 1148

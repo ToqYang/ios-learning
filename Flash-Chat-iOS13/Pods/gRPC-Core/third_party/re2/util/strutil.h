@@ -1,21 +1,3 @@
-// Copyright 2016 The RE2 Authors.  All Rights Reserved.
-// Use of this source code is governed by a BSD-style
-// license that can be found in the LICENSE file.
-
-#ifndef UTIL_STRUTIL_H_
-#define UTIL_STRUTIL_H_
-
-#include <string>
-
-#include "re2/stringpiece.h"
-#include "util/util.h"
-
-namespace re2 {
-
-std::string CEscape(const StringPiece& src);
-void PrefixSuccessor(std::string* prefix);
-std::string StringPrintf(const char* format, ...);
-
-}  // namespace re2
-
-#endif  // UTIL_STRUTIL_H_
+version https://git-lfs.github.com/spec/v1
+oid sha256:023290540c6e803c50cb62ddf7bda9e81ba4bf8fc57676e074b6275c42bb0f60
+size 488

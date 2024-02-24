@@ -1,30 +1,3 @@
-//
-// Copyright 2019 gRPC authors.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-//
-
-// This is similar to the sockaddr resolver, except that it supports a
-// bunch of query args that are useful for dependency injection in tests.
-
-#include <grpc/support/port_platform.h>
-
-#include "src/core/ext/filters/client_channel/resolver/dns/dns_resolver_selection.h"
-
-#include "src/core/lib/gprpp/global_config.h"
-
-GPR_GLOBAL_CONFIG_DEFINE_STRING(
-    grpc_dns_resolver, "",
-    "Declares which DNS resolver to use. The default is ares if gRPC is built "
-    "with c-ares support. Otherwise, the value of this environment variable is "
-    "ignored.")
+version https://git-lfs.github.com/spec/v1
+oid sha256:e92c225127d3f46ff2b400829cd082cd1c861c4799753655e14f294c676fd0a9
+size 1154

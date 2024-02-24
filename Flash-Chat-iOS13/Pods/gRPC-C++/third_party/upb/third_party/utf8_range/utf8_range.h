@@ -1,9 +1,3 @@
-
-#if (defined(__ARM_NEON) && defined(__aarch64__)) || defined(__SSE4_1__)
-int utf8_range2(const unsigned char* data, int len);
-#else
-int utf8_naive(const unsigned char* data, int len);
-static inline int utf8_range2(const unsigned char* data, int len) {
-  return utf8_naive(data, len);
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:477124b0f64050ef2997e8f49716bb773a4e4489692e14d4f943f8f266058583
+size 294

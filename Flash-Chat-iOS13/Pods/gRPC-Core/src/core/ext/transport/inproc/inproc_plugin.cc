@@ -1,23 +1,3 @@
-/*
- *
- * Copyright 2017 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#include <grpc/support/port_platform.h>
-
-#include "src/core/lib/debug/trace.h"
-
-grpc_core::TraceFlag grpc_inproc_trace(false, "inproc");
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4daf8abf57a05903ed58d9cd103d039c43945585e2abb826cfa566364dbfc89
+size 741

@@ -1,21 +1,3 @@
-//
-//  UIImage+ChameleonPrivate.h
-//  Chameleon
-//
-//  Created by Vicc Alexander on 6/8/15.
-//  Copyright (c) 2015 Vicc Alexander. All rights reserved.
-//
-
-#import <UIKit/UIKit.h>
-
-@interface UIImage (ChameleonPrivate)
-
-#pragma mark - Class Methods
-
-+ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
-
-#pragma mark - Instance Methods
-
-- (UIImage *)imageScaledToSize:(CGSize)newSize;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd784613e9fec4a3b57a28899f2490525c0c33fa8c9a32be369f26f6fc845451
+size 413

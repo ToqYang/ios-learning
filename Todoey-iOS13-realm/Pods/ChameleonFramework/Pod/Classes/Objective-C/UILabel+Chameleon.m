@@ -1,18 +1,3 @@
-//
-//  UILabel+Chameleon.m
-//  Chameleon
-//
-//  Created by Vicc Alexander on 9/20/15.
-//  Copyright © 2015 Vicc Alexander. All rights reserved.
-//
-
-#import "UILabel+Chameleon.h"
-
-@implementation UILabel (Chameleon)
-
-- (void)setSubstituteFontName:(NSString *)name UI_APPEARANCE_SELECTOR {
-    
-    self.font = [UIFont fontWithName:name size:self.font.pointSize];
-}
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e73841cc9ed1bd0444006576353a2c56e67f8054adafa8dcbe6a503f218c5f4
+size 371

@@ -1,24 +1,3 @@
-/*
- *
- * Copyright 2015 gRPC authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
-
-#ifndef GRPCPP_SERVER_CONTEXT_H
-#define GRPCPP_SERVER_CONTEXT_H
-
-#include <grpcpp/impl/codegen/server_context.h>  // IWYU pragma: export
-
-#endif  // GRPCPP_SERVER_CONTEXT_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:643f5dffb32fbb6eb36e494e114462a4ce3be343e9c646b48058dd51d49f7e95
+size 777

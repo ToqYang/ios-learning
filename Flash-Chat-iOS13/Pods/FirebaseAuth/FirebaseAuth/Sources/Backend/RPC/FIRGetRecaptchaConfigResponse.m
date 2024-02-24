@@ -1,31 +1,3 @@
-/*
- * Copyright 2022 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-#import "FirebaseAuth/Sources/Backend/RPC/FIRGetRecaptchaConfigResponse.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-@implementation FIRGetRecaptchaConfigResponse
-
-- (BOOL)setWithDictionary:(NSDictionary *)dictionary error:(NSError *_Nullable *_Nullable)error {
-  _recaptchaKey = [dictionary[@"recaptchaKey"] copy];
-  _enforcementState = dictionary[@"recaptchaEnforcementState"];
-  return YES;
-}
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:f734f0bd85c3b38953eaba65a2e9f747e601ce837c6d8933ee607633b3ca1f40
+size 1005

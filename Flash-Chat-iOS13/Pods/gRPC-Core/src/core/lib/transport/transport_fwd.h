@@ -1,20 +1,3 @@
-// Copyright 2022 gRPC authors.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
-#ifndef GRPC_CORE_LIB_TRANSPORT_TRANSPORT_FWD_H
-#define GRPC_CORE_LIB_TRANSPORT_TRANSPORT_FWD_H
-
-typedef struct grpc_transport grpc_transport;
-
-#endif  // GRPC_CORE_LIB_TRANSPORT_TRANSPORT_FWD_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0b4c262480765c0f2f02e8331595b18978d316b4680e2b0e04429957e2bc139
+size 786

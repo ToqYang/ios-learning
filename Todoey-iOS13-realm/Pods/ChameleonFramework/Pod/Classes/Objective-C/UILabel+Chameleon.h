@@ -1,15 +1,3 @@
-//
-//  UILabel+Chameleon.h
-//  Chameleon
-//
-//  Created by Vicc Alexander on 9/20/15.
-//  Copyright © 2015 Vicc Alexander. All rights reserved.
-//
-
-#import <UIKit/UIKit.h>
-
-@interface UILabel (Chameleon)
-
-- (void)setSubstituteFontName:(NSString *)name UI_APPEARANCE_SELECTOR;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd4240c6effee2edcdb666b8725cec1763299da79838c4765abaf558f6791068
+size 283
