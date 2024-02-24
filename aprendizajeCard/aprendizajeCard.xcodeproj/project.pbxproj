@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052EF64D2B464D35009AD174 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05BDB3C62B463C4000244380 /* Pacifico-Regular.ttf */; };
+		054CF77D2B47639E000A8EBE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054CF77C2B47639E000A8EBE /* InfoView.swift */; };
+		05BDB39C2B463A3200244380 /* aprendizajeCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BDB39B2B463A3200244380 /* aprendizajeCardApp.swift */; };
+		05BDB39E2B463A3200244380 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BDB39D2B463A3200244380 /* ContentView.swift */; };
+		05BDB3A02B463A3300244380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BDB39F2B463A3300244380 /* Assets.xcassets */; };
+		05BDB3A32B463A3300244380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BDB3A22B463A3300244380 /* Preview Assets.xcassets */; };
+		05BDB3AD2B463A3300244380 /* aprendizajeCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BDB3AC2B463A3300244380 /* aprendizajeCardTests.swift */; };
+		05BDB3B72B463A3300244380 /* aprendizajeCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BDB3B62B463A3300244380 /* aprendizajeCardUITests.swift */; };
+		05BDB3B92B463A3300244380 /* aprendizajeCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BDB3B82B463A3300244380 /* aprendizajeCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05BDB3A92B463A3300244380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BDB3902B463A3200244380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BDB3972B463A3200244380;
+			remoteInfo = aprendizajeCard;
+		};
+		05BDB3B32B463A3300244380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BDB3902B463A3200244380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BDB3972B463A3200244380;
+			remoteInfo = aprendizajeCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052EF64C2B463F09009AD174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		054CF77C2B47639E000A8EBE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		05BDB3982B463A3200244380 /* aprendizajeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aprendizajeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BDB39B2B463A3200244380 /* aprendizajeCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprendizajeCardApp.swift; sourceTree = "<group>"; };
+		05BDB39D2B463A3200244380 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05BDB39F2B463A3300244380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05BDB3A22B463A3300244380 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05BDB3A82B463A3300244380 /* aprendizajeCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aprendizajeCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BDB3AC2B463A3300244380 /* aprendizajeCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprendizajeCardTests.swift; sourceTree = "<group>"; };
+		05BDB3B22B463A3300244380 /* aprendizajeCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aprendizajeCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BDB3B62B463A3300244380 /* aprendizajeCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprendizajeCardUITests.swift; sourceTree = "<group>"; };
+		05BDB3B82B463A3300244380 /* aprendizajeCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprendizajeCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05BDB3C62B463C4000244380 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BDB3952B463A3200244380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BDB3A52B463A3300244380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BDB3AF2B463A3300244380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BDB38F2B463A3200244380 = {
+			isa = PBXGroup;
+			children = (
+				05BDB39A2B463A3200244380 /* aprendizajeCard */,
+				05BDB3AB2B463A3300244380 /* aprendizajeCardTests */,
+				05BDB3B52B463A3300244380 /* aprendizajeCardUITests */,
+				05BDB3992B463A3200244380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BDB3992B463A3200244380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BDB3982B463A3200244380 /* aprendizajeCard.app */,
+				05BDB3A82B463A3300244380 /* aprendizajeCardTests.xctest */,
+				05BDB3B22B463A3300244380 /* aprendizajeCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BDB39A2B463A3200244380 /* aprendizajeCard */ = {
+			isa = PBXGroup;
+			children = (
+				052EF64C2B463F09009AD174 /* Info.plist */,
+				05BDB3C52B463C2100244380 /* fonts */,
+				05BDB39B2B463A3200244380 /* aprendizajeCardApp.swift */,
+				054CF77C2B47639E000A8EBE /* InfoView.swift */,
+				05BDB39D2B463A3200244380 /* ContentView.swift */,
+				05BDB39F2B463A3300244380 /* Assets.xcassets */,
+				05BDB3A12B463A3300244380 /* Preview Content */,
+			);
+			path = aprendizajeCard;
+			sourceTree = "<group>";
+		};
+		05BDB3A12B463A3300244380 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05BDB3A22B463A3300244380 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05BDB3AB2B463A3300244380 /* aprendizajeCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				05BDB3AC2B463A3300244380 /* aprendizajeCardTests.swift */,
+			);
+			path = aprendizajeCardTests;
+			sourceTree = "<group>";
+		};
+		05BDB3B52B463A3300244380 /* aprendizajeCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05BDB3B62B463A3300244380 /* aprendizajeCardUITests.swift */,
+				05BDB3B82B463A3300244380 /* aprendizajeCardUITestsLaunchTests.swift */,
+			);
+			path = aprendizajeCardUITests;
+			sourceTree = "<group>";
+		};
+		05BDB3C52B463C2100244380 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05BDB3C62B463C4000244380 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BDB3972B463A3200244380 /* aprendizajeCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BDB3BC2B463A3300244380 /* Build configuration list for PBXNativeTarget "aprendizajeCard" */;
+			buildPhases = (
+				05BDB3942B463A3200244380 /* Sources */,
+				05BDB3952B463A3200244380 /* Frameworks */,
+				05BDB3962B463A3200244380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aprendizajeCard;
+			productName = aprendizajeCard;
+			productReference = 05BDB3982B463A3200244380 /* aprendizajeCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05BDB3A72B463A3300244380 /* aprendizajeCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BDB3BF2B463A3300244380 /* Build configuration list for PBXNativeTarget "aprendizajeCardTests" */;
+			buildPhases = (
+				05BDB3A42B463A3300244380 /* Sources */,
+				05BDB3A52B463A3300244380 /* Frameworks */,
+				05BDB3A62B463A3300244380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BDB3AA2B463A3300244380 /* PBXTargetDependency */,
+			);
+			name = aprendizajeCardTests;
+			productName = aprendizajeCardTests;
+			productReference = 05BDB3A82B463A3300244380 /* aprendizajeCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05BDB3B12B463A3300244380 /* aprendizajeCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BDB3C22B463A3300244380 /* Build configuration list for PBXNativeTarget "aprendizajeCardUITests" */;
+			buildPhases = (
+				05BDB3AE2B463A3300244380 /* Sources */,
+				05BDB3AF2B463A3300244380 /* Frameworks */,
+				05BDB3B02B463A3300244380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BDB3B42B463A3300244380 /* PBXTargetDependency */,
+			);
+			name = aprendizajeCardUITests;
+			productName = aprendizajeCardUITests;
+			productReference = 05BDB3B22B463A3300244380 /* aprendizajeCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BDB3902B463A3200244380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					05BDB3972B463A3200244380 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					05BDB3A72B463A3300244380 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 05BDB3972B463A3200244380;
+					};
+					05BDB3B12B463A3300244380 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 05BDB3972B463A3200244380;
+					};
+				};
+			};
+			buildConfigurationList = 05BDB3932B463A3200244380 /* Build configuration list for PBXProject "aprendizajeCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05BDB38F2B463A3200244380;
+			productRefGroup = 05BDB3992B463A3200244380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BDB3972B463A3200244380 /* aprendizajeCard */,
+				05BDB3A72B463A3300244380 /* aprendizajeCardTests */,
+				05BDB3B12B463A3300244380 /* aprendizajeCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BDB3962B463A3200244380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052EF64D2B464D35009AD174 /* Pacifico-Regular.ttf in Resources */,
+				05BDB3A32B463A3300244380 /* Preview Assets.xcassets in Resources */,
+				05BDB3A02B463A3300244380 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BDB3A62B463A3300244380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BDB3B02B463A3300244380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BDB3942B463A3200244380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BDB39E2B463A3200244380 /* ContentView.swift in Sources */,
+				054CF77D2B47639E000A8EBE /* InfoView.swift in Sources */,
+				05BDB39C2B463A3200244380 /* aprendizajeCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BDB3A42B463A3300244380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BDB3AD2B463A3300244380 /* aprendizajeCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BDB3AE2B463A3300244380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BDB3B92B463A3300244380 /* aprendizajeCardUITestsLaunchTests.swift in Sources */,
+				05BDB3B72B463A3300244380 /* aprendizajeCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BDB3AA2B463A3300244380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BDB3972B463A3200244380 /* aprendizajeCard */;
+			targetProxy = 05BDB3A92B463A3300244380 /* PBXContainerItemProxy */;
+		};
+		05BDB3B42B463A3300244380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BDB3972B463A3200244380 /* aprendizajeCard */;
+			targetProxy = 05BDB3B32B463A3300244380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05BDB3BA2B463A3300244380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05BDB3BB2B463A3300244380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BDB3BD2B463A3300244380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aprendizajeCard/Preview Content\"";
+				DEVELOPMENT_TEAM = RMYWH5CM7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aprendizajeCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.aprendizajeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05BDB3BE2B463A3300244380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aprendizajeCard/Preview Content\"";
+				DEVELOPMENT_TEAM = RMYWH5CM7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aprendizajeCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.aprendizajeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05BDB3C02B463A3300244380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMYWH5CM7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.aprendizajeCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aprendizajeCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aprendizajeCard";
+			};
+			name = Debug;
+		};
+		05BDB3C12B463A3300244380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMYWH5CM7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.aprendizajeCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aprendizajeCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aprendizajeCard";
+			};
+			name = Release;
+		};
+		05BDB3C32B463A3300244380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMYWH5CM7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.aprendizajeCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aprendizajeCard;
+			};
+			name = Debug;
+		};
+		05BDB3C42B463A3300244380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RMYWH5CM7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.aprendizajeCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aprendizajeCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BDB3932B463A3200244380 /* Build configuration list for PBXProject "aprendizajeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BDB3BA2B463A3300244380 /* Debug */,
+				05BDB3BB2B463A3300244380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BDB3BC2B463A3300244380 /* Build configuration list for PBXNativeTarget "aprendizajeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BDB3BD2B463A3300244380 /* Debug */,
+				05BDB3BE2B463A3300244380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BDB3BF2B463A3300244380 /* Build configuration list for PBXNativeTarget "aprendizajeCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BDB3C02B463A3300244380 /* Debug */,
+				05BDB3C12B463A3300244380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BDB3C22B463A3300244380 /* Build configuration list for PBXNativeTarget "aprendizajeCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BDB3C32B463A3300244380 /* Debug */,
+				05BDB3C42B463A3300244380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BDB3902B463A3200244380 /* Project object */;
+}
